@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import './pages/css/About.css';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
+import elementImage from './Element.png';
+import { Helmet } from 'react-helmet';
+
+
+const TITLE = 'Pascual Liner Inc.';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
+      <div className="image">
+        <img className="element" alt="Element" src={elementImage} />
+      </div>
+      <Footer />
     </div>
   );
 }

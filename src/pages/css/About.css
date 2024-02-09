@@ -1,0 +1,17 @@
+.content-container {
+    padding: 0 140px;
+    background-color: #F1F1F1;
+    padding-top: 20px ; 
+    padding-bottom: 50px ; 
+ }
+  
+.h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    padding-top: 25px;
+  }
+
+.description-text {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}

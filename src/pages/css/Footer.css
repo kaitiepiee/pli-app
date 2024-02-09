@@ -1,0 +1,53 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  border: none; 
+}
+
+/* Footer.css */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; 
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right:10rem;
+  }
+  
+  .section {
+    text-align: center;
+    flex: 1 1 300px; 
+    margin: 0 10px;
+  }
+  
+  .div {
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: normal;
+    margin: 15px 0;
+    margin-top:30px;
+  }
+  
+  .subtitle {
+    font-size: 12px;
+    font-family: "Inter-Medium", Helvetica;
+
+
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin: 50px;
+    order: 3;
+  }
+  

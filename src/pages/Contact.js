@@ -1,13 +1,13 @@
 import React from 'react';
-import './css/About.css';
+import './css/Contact.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import { Helmet } from 'react-helmet';
 
 
-const TITLE = 'Rentals | Pascual Liner Inc.';
+const TITLE = 'Contact Us | Pascual Liner Inc.';
 
-function Rentals() {
+function Contact() {
   return (
     <div className="About">
       <Header />
@@ -19,4 +19,4 @@ function Rentals() {
   );
 }
 
-export default Rentals;
+export default Contact;

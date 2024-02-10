@@ -15,8 +15,10 @@ function Careers() {
           <title>{ TITLE }</title>
         </Helmet>
       <div className="apply-form">
+        <div className='title'>
       <h2>Apply Now!</h2>
       <div className="form-field">
+      </div>
         <label htmlFor="fullName">Full Name</label>
         <input type="text" id="fullName" placeholder="Enter your full name" />
       </div>

@@ -1,7 +1,9 @@
-import './pages/css/About.css';
+import './pages/css/App.css';
 import Header from './pages/Header';
 import Footer from './pages/Footer';
 import elementImage from './Element.png';
+import logo from './logo.png';
+
 import { Helmet } from 'react-helmet';
 
 
@@ -16,7 +18,9 @@ function App() {
         </Helmet>
       <div className="image">
         <img className="element" alt="Element" src={elementImage} />
+        <div className="image-text">Bringing Filipinos home.</div>
       </div>
+      
       <Footer />
     </div>
   );

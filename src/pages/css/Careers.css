@@ -1,37 +1,39 @@
 .apply-form {
-    width: 300px;
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif; 
-    margin-top: 50px;
-
-  }
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif; 
+  margin-top: 50px;
+}
   
-  .form-field {
-    margin-bottom: 20px;
-  }
+.form-field {
+  margin-bottom: 20px;
+}
   
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
+label {
+  display: block;
+  margin-bottom: 5px;
+}
   
-  input[type="text"],
-  input[type="email"],
-  select,
-  button {
-    width: 100%;
-    padding: 8px;
-    font-size: 12px;
-  }
+input[type="text"],
+input[type="email"],
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+}
   
-  button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
   
-  p {
-    margin-top: 20px;
-  }
+p {
+  margin-top: 20px;
+}
   
+title {
+  text-align: center;
+}

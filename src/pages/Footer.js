@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/kaitlyntighe/pli-app/src/pages/css/Footer.css'; 
+import './css/Footer.css'; 
 
 export const Footer = () => {
   return (

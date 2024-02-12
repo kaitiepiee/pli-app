@@ -49,3 +49,12 @@ p {
   font-size: 14px;
   text-align: center;
 }
+
+.form-row.special-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row.special-row .form-field {
+  width: 48%; /* Adjust as needed */
+}

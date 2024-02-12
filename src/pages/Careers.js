@@ -1,13 +1,20 @@
-import React from 'react';
 import './css/Careers.css';
 import Header from './Header.js';
 import Footer from './Footer.js';
 import { Helmet } from 'react-helmet';
+import React, { useState } from 'react';
+
 
 
 const TITLE = 'Careers | Pascual Liner Inc.';
 
 function Careers() {
+
+  const [dob, setDob] = useState('');
+
+  const handleInputChange = (e) => {
+    setDob(e.target.value);
+  };
   return (
     <div className="Career">
       <Header />
@@ -30,14 +37,23 @@ function Careers() {
         <label htmlFor="contactNumber">Contact Number</label>
         <input type="text" id="contactNumber" placeholder="e.g. 09XX XXX XXXX" />
       </div>
-      <div className="form-field">
-        <label htmlFor="city">City of Residence</label>
-        <input type="text" id="city" placeholder="e.g. Quezon City" />
+      <div className="form-row special-row">
+        <div className="form-field">
+          <label htmlFor="city">City of Residence</label>
+          <input type="text" id="city" placeholder="e.g. Quezon City" />
+        </div>
+        <div className="form-field">
+          <label htmlFor="dob">Date of Birth</label>
+          <input 
+            type="text" 
+            id="dob" 
+            placeholder="MM/DD/YYYY" 
+            maxLength="10" 
+            onChange={handleInputChange}
+          />
+        </div>
       </div>
-      <div className="form-field">
-        <label>Date of Birth</label>
-        <input type="date" id="dob" />
-      </div>
+
       <div className="form-field">
         <label htmlFor="position">Position</label>
         <select id="position">

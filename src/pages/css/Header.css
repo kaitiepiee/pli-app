@@ -21,12 +21,11 @@ body {
   height: 12vh;
   position: absolute;
   width: 100%;
+  border-bottom: 1px solid #000000; /* Add bottom border */
 }
 
 .box .overlap-group {
   background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
   height: 100%;
   position: absolute;
   width: 100%;
@@ -68,13 +67,13 @@ body {
 
 .box .logo {
   height: 12vh;
-  width: auto; /* Let the width adjust to maintain aspect ratio */
+  width: auto;
   left: 10%;
   position: absolute;
   top: 0;
 }
 
-/* Define the hover effect for the links */
+/* Hover effect for the links */
 .text-wrapper:hover,
 .text-wrapper-1:hover,
 .text-wrapper-3:hover,
@@ -88,4 +87,8 @@ body {
 .text-wrapper-2 {
   color: black; 
   text-decoration: none; /* Remove underline */
+}
+
+.mission-vision{
+  padding-left: 200px;
 }

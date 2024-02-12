@@ -28,12 +28,24 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+  padding: 6px 10px;
+  width: 120px; 
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 0 auto;
 }
-  
+
 p {
   margin-top: 20px;
 }
   
-title {
+.title {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.contact-info {
+  font-style: italic;
+  font-size: 14px;
   text-align: center;
 }

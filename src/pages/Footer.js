@@ -6,12 +6,12 @@ export const Footer = () => {
     <footer className="footer">
       <div className="section">
         <div className="div">Address</div>
-        <div className="subtitle">1108 Temp Quirino Highway <br />Brgy. Kaligayahan Novaliches, Quezon City</div>
+        <div className="subtitle">1108 Temp Quirino Highway <br />Brgy. Kaligayahan Novaliches, Quezon City <br/> near S&R Commonwealth and Ninja Van Office</div>
       </div>
       <div className="section">
         <div className="div">Contact</div>
-        <div className="subtitle">contactus@pascualliner.com</div>
-        <div className="subtitle">(02) 828-56462</div>
+        <div className="subtitle">admin@pascualliner.com</div>
+        <div className="subtitle">(8) 828-56462</div>
       </div>
       <div className="section">
         <div className="div">Office Hours</div>

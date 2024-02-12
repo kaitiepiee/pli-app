@@ -20,15 +20,23 @@ function Careers() {
       </div>
       <div className="form-field">
         <label htmlFor="fullName">Full Name</label>
-        <input type="text" id="fullName" placeholder="Enter your full name" />
+        <input type="text" id="fullName" placeholder="e.g. Juan Dela Cruz" />
       </div>
       <div className="form-field">
         <label htmlFor="email">Email</label>
-        <input type="email" id="email" placeholder="Enter your email address" />
+        <input type="email" id="email" placeholder="e.g. juandelacruz@gmail.com" />
       </div>
       <div className="form-field">
         <label htmlFor="contactNumber">Contact Number</label>
-        <input type="text" id="contactNumber" placeholder="Enter your contact number" />
+        <input type="text" id="contactNumber" placeholder="e.g. 09XX XXX XXXX" />
+      </div>
+      <div className="form-field">
+        <label htmlFor="city">City of Residence</label>
+        <input type="text" id="city" placeholder="Enter your city of residence" />
+      </div>
+      <div className="form-field">
+        <label htmlFor="age">Age</label>
+        <input type="number" id="age" placeholder="Enter your age" />
       </div>
       <div className="form-field">
         <label htmlFor="position">Position</label>

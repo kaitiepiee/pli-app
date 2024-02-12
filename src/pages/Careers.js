@@ -32,11 +32,11 @@ function Careers() {
       </div>
       <div className="form-field">
         <label htmlFor="city">City of Residence</label>
-        <input type="text" id="city" placeholder="Enter your city of residence" />
+        <input type="text" id="city" placeholder="e.g. Quezon City" />
       </div>
       <div className="form-field">
-        <label htmlFor="age">Age</label>
-        <input type="number" id="age" placeholder="Enter your age" />
+        <label>Date of Birth</label>
+        <input type="date" id="dob" />
       </div>
       <div className="form-field">
         <label htmlFor="position">Position</label>

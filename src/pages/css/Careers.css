@@ -1,19 +1,105 @@
-.apply-form {
-  width: 300px;
-  margin: 0 auto;
-  font-family: 'Inter', sans-serif; 
-  margin-top: 50px;
+.content-container {
+  padding: 0 140px;
+  background-color: #F1F1F1;
+  padding-top: 20px ; 
+  padding-bottom: 50px ; 
 }
-  
+
+.apply-form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 30px;
+  font-family: "Inter", Helvetica;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold; 
+}
+
+.row {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin: 0 auto; 
+  max-width: 1000px;
+}
+
+.small-box {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+  padding: 20px;
+  margin: 20px; 
+  width: 240px; 
+  flex-direction: column;
+  transition: background-color 0.3s, color 0.3s;
+  overflow: auto; 
+  white-space: normal; 
+  word-wrap: break-word; 
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .row {
+    justify-content: center; 
+    max-width: none; 
+  }
+
+  .small-box {
+    width: calc(50% - 40px); 
+    max-width: none; 
+  }
+}
+
+.small-box:hover {
+  background-color: #F8CD00;
+  color: #fff;
+}
+
+.logo img {
+  max-width: 30px; 
+  max-height: 30px; 
+  margin-bottom: 5px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Inter-Bold";
+}
+
+.title h2 {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: -30px;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.small-box .title,
+.small-box .subtitle {
+  line-height: 1.0; 
+}
+
 .form-field {
   margin-bottom: 20px;
 }
-  
+
 label {
   display: block;
   margin-bottom: 5px;
 }
-  
+
 input[type="text"],
 input[type="email"],
 select,
@@ -22,14 +108,14 @@ button {
   padding: 8px;
   font-size: 12px;
 }
-  
+
 button {
   background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
   padding: 6px 10px;
-  width: 120px; 
+  width: 120px;
   font-size: 14px;
   border-radius: 5px;
   margin: 0 auto;
@@ -38,11 +124,14 @@ button {
 p {
   margin-top: 20px;
 }
-  
+
 .title {
   text-align: center;
   padding-bottom: 15px;
+  display: block;
 }
+
+
 
 .contact-info {
   font-style: italic;
@@ -53,8 +142,13 @@ p {
 .form-row.special-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .form-row.special-row .form-field {
-  width: 48%; /* Adjust as needed */
+  width: 48%;
+}
+
+.form-row.special-row .form-field:last-child {
+  margin-left: 4%;
 }

@@ -21,12 +21,11 @@ function Careers() {
       <Helmet>
         <title>{ TITLE }</title>
       </Helmet>
-      
       <div className="content-container">
         <div className="page-title">
          CAREERS
         </div>
-
+        
       <div className="row">
         <div className="small-box">
           <div className="logo">

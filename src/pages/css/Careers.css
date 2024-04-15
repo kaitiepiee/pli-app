@@ -1,4 +1,7 @@
-.content-container {
+body {
+  background-color: #F1F1F1;
+}
+.career-container {
   padding: 0 140px;
   background-color: #F1F1F1;
   padding-top: 20px ; 
@@ -39,7 +42,7 @@
   border-radius: 10px; 
   padding: 20px;
   margin: 20px; 
-  width: 240px; 
+  width: 260px; 
   flex-direction: column;
   transition: background-color 0.3s, color 0.3s;
   overflow: auto; 
@@ -65,11 +68,18 @@
   color: #fff;
 }
 
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
 .logo img {
-  max-width: 30px; 
-  max-height: 30px; 
+  max-width: 30px;
+  max-height: 30px;
   margin-bottom: 5px;
 }
+
 
 .title {
   margin-bottom: 20px;
@@ -85,7 +95,15 @@
 
 .subtitle {
   margin-top: 0;
+  text-align: center;
   font-size: 12px;
+}
+
+.career-subtitle {
+  margin-top: 0;
+  text-align: left;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .small-box .title,
@@ -116,11 +134,12 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-  padding: 6px 10px;
+  padding: 6px;
   width: 120px;
   font-size: 14px;
   border-radius: 5px;
   margin: 0 auto;
+  align-self: auto;
 }
 
 p {

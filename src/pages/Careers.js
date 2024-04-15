@@ -10,6 +10,7 @@ import iconTools from './icon_tools.png';
 
 
 
+
 const TITLE = 'Careers | Pascual Liner Inc.';
 
 function Careers() {
@@ -21,7 +22,9 @@ function Careers() {
       <Helmet>
         <title>{ TITLE }</title>
       </Helmet>
-      <div className="content-container">
+    
+
+      <div className="career-container">
         <div className="page-title">
          CAREERS
         </div>
@@ -35,7 +38,7 @@ function Careers() {
             <div className="title">
               <h2>Driver</h2>
             </div>
-            <div className="subtitle">
+            <div className="career-subtitle">
               <p>Safely operate company vehicles whilst maintaining the cleanliness of vehicle.</p>
             </div>
           </div>
@@ -48,7 +51,7 @@ function Careers() {
             <div className="title">
               <h2>Conductor</h2>
             </div>
-            <div className="subtitle">
+            <div className="career-subtitle">
               <p>Help passengers board and exit the bus, collect fares, enforce safety rules, offer route information, and maintain bus cleanliness.</p>
             </div>
           </div>
@@ -61,7 +64,7 @@ function Careers() {
             <div className="title">
               <h2>Electrician</h2>
             </div>
-            <div className="subtitle">
+            <div className="career-subtitle">
               <p>Diagnose and repair bus electrical systems, install and maintain components of the buses.</p>
             </div>
           </div>
@@ -77,7 +80,7 @@ function Careers() {
             <div className="title">
               <h2>Aircon Technician</h2>
             </div>
-            <div className="subtitle">
+            <div className="career-subtitle">
               <p>Inspect, troubleshoot, and repair bus airconditioning and heating systems.</p>
             </div>
           </div>
@@ -90,7 +93,7 @@ function Careers() {
             <div className="title">
               <h2>Mechanic</h2>
             </div>
-            <div className="subtitle">
+            <div className="career-subtitle">
               <p>Repair engines and components to ensure safety and performance of the buses.</p>
             </div>
           </div>
@@ -101,8 +104,8 @@ function Careers() {
 
       <form action= "https://docs.google.com/forms/d/e/1FAIpQLScY75BNcBJ51kH-wmV-kEcn9JI8Ak5kn3rbgvEUw-ePTB2Hgw/formResponse">
       <div className="apply-form">
-        <div className='title'>
-          <h2>Apply Now!</h2>
+        <div className='page-title' style={{textAlign: 'center'}}>
+          Apply Now!
         </div>
         <div className="form-field">
           <label htmlFor="fentry.832577582">Full Name</label>

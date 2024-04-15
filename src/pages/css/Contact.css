@@ -3,6 +3,7 @@
     background-color: #F1F1F1;
     padding-top: 20px ; 
     padding-bottom: 50px ; 
+
   }
   
   .contact-form {
@@ -15,6 +16,7 @@
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
     border-radius: 10px; 
+    margin-bottom: 100px;
   }
   
   .contact-page-title {
@@ -155,3 +157,7 @@
     font-size: 12px;
     height: 100px; /* Set the height to a fixed value */
   }
+  p {
+    font-weight: normal;
+    margin-top: 20px;
+}

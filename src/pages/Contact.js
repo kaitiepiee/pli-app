@@ -20,7 +20,10 @@ function Contact() {
       <div className="career-container">
         <div className="page-title">
          Contact Us
+         <div className="subtitle">
+         <p>Have any questions, comments, or suggestions? <br></br> Please call, email, or fill out the form below to get in touch. We value your input!</p>
         </div>
+</div>
 </div>
       <div className="contact-row">
         <div className="contact-box">

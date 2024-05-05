@@ -161,3 +161,20 @@
     font-weight: normal;
     margin-top: 20px;
 }
+
+.required {
+  color: red;
+}
+
+/* Styling for the active and inactive buttons */
+.activeButton {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.inactiveButton {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}

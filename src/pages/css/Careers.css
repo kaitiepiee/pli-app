@@ -152,7 +152,9 @@ p {
   display: block;
 }
 
-
+.required {
+  color: red;
+}
 
 .contact-info {
   font-style: italic;
@@ -172,4 +174,16 @@ p {
 
 .form-row.special-row .form-field:last-child {
   margin-left: 4%;
+}
+
+.submit-disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+
+.submit-active {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
 }

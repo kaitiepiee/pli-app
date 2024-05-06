@@ -13,7 +13,6 @@
 
 .element {
   width: 85%;
-
 }
 
 .text-container {
@@ -26,7 +25,6 @@
 .text {
   font-family: "Inter", Helvetica;
   background-color: beige;
-
 }
 
 .title {
@@ -60,3 +58,4 @@
 .button:hover {
   background-color: #2ecc71;
 }
+

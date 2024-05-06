@@ -1,43 +1,62 @@
 /* App.css */
+
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .image-container {
-  position: relative;
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .element {
-  width: 100%;
-  height: auto;
+  width: 85%;
 
 }
 
-.join-family {
-  margin-top: -100px; 
+.text-container {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-right: 150px;
+  text-align: right;
 }
 
-.join-family-content {
-  text-align: center;
+.text {
+  font-family: "Inter", Helvetica;
+  background-color: beige;
+
 }
 
-.description p {
-  margin-bottom: 10px;
+.title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.learn-more {
-  padding: 5px 10px; 
+.subtitle-home {
+  font-size: 12px;
+  font-family: "Inter", Helvetica;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.button {
+  font-family: "Inter", Helvetica;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
   font-size: 14px;
   border-radius: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #007bff; 
+  background-image: none; 
+  transition: background-color 0.3s ease-in-out; 
 }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  .join-family {
-    margin-top: -50px; 
-  }
+.button:hover {
+  background-color: #2ecc71;
 }
